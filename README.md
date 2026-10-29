@@ -1,11 +1,11 @@
-# mysquidscanner
+# mysquidscanner: Squid port 3128 pentesting tool
 
-Fast asyncio port scanner that pivots through a misconfigured **Squid proxy** using the `CONNECT` method. It reaches internal services (localhost, internal subnets) that the firewall blocks from the outside, and grabs a banner from every open port.
+**Squid port 3128 pentesting** tool by [Hackita](https://en.hackita.it/articoli/porta-3128-squid-proxy/): it pivots through a misconfigured **Squid proxy** using the `CONNECT` method to scan internal services (localhost, internal subnets) that the firewall blocks from the outside, and grabs a banner from every open port. Fast asyncio scanner, standard library only.
 
 Built for CTFs, Hack The Box labs and authorized penetration tests.
 
 Full write-up on Squid port 3128, open proxy abuse, pivoting and hardening:
-**[Squid Proxy Port 3128: what it is, how it works, security risks](https://en.hackita.it/articoli/porta-3128-squid-proxy/)**
+**[Squid Proxy Port 3128: pentest, pivoting and secure configuration](https://en.hackita.it/articoli/porta-3128-squid-proxy/)**
 (also in [Italian](https://hackita.it/articoli/porta-3128-squid-proxy/)).
 
 ## Features
